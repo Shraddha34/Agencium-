@@ -1,0 +1,489 @@
+ *{
+    margin:0;
+    padding:0;
+}
+ .owl-dot {
+  border-radius:50%;
+  float: left;
+  height: 35px;
+  width: 35px;
+  border: 2px double rgb(222, 56, 10);
+  text-align-last: auto;
+ margin-top:500px; 
+}
+.navbar{
+  position: absolute;
+width:100%;
+text-align: right;
+background-color:hidden;
+}
+.slider_text h1{
+font-size: 110px;
+font-weight: bold;
+text-align: center;
+color: white;
+margin-top: 30px;
+}
+.slider_img{
+  margin-top: 60px;
+}
+.slider_text h2{
+  font-size: 100px;
+  color: white;
+  }
+  .slider-wrapper{
+    background-image:url("images23/my1.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    position: relative;
+    text-align: center;
+  }
+  .overlay{
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 40px;
+  }
+  .line{
+    width: 100px;
+    position: relative;
+    animation: myfirst 5s linear 2s infinite alternate;
+    border: 2px solid white;
+  }
+  
+  @keyframes myfirst {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+  }
+  /* ============nav */
+  /* ==========s====== */
+  .about-service{
+    background-color: black;
+    color: white;
+  }
+  .about123{
+    text-align: start;
+  }
+  .abouth{
+border-right:1px solid rgb(255, 255, 255);
+border-bottom:1px solid rgb(255, 255, 255);
+width: 1150px;
+text-align: center;
+margin-right: 10px;
+margin-top: 30px;
+  }
+  .abouth h6{
+ text-align: start;
+  }
+.about-1 h2{
+font-size: 70px;
+  }
+  .about-2 h2{
+    font-size: 70px;
+    margin-left: 0%;
+      }
+.text1{
+font-size: 16px;
+color: white;
+ }
+ .text1 h4{
+  margin-top:50px;
+ }
+ /* }
+ .text2{
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right:0;
+  width: 100%;
+  height:80%;
+  display:flex;
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s 2s transform;
+  margin-top: 30px;
+}
+.text2:hover img{
+  transform: scale(1.2,1.2);
+  color: rgb(144, 22, 22);
+  transform: 0.5s;
+  display: block;
+} */
+ .text1 h1 i:hover{
+  color: rgb(180, 58, 58);
+ }
+ /* =======service */
+ .mymymy{
+ background-color: black;
+ text-align: center;
+ }
+ .abouth2{
+  border-right:1px solid rgb(255, 255, 255);
+  border-bottom:1px solid rgb(255, 255, 255);
+  width: 1150px;
+  text-align: center;
+  margin-right: 10px;
+  margin-top: 30px;
+  color: white;
+    }
+    .abouth2 h6{
+      text-align: start;
+    }
+.myhead h1{
+font-size: 90px;
+}
+.myhead2 h1{
+  font-size: 80px;
+  margin-top:30px;
+  margin-left: 20px;
+  color: white;
+  }
+  .myhead2 p{
+    font-size: 16px;
+    color:white;
+    }
+.min{
+      color: rgb(226, 19, 19);
+      text-decoration: none;
+}
+    .min i{
+   rotate:-45deg;
+    }
+ /* ================skill */
+ .skilll{
+  background-color: black;
+  color: white;
+ }
+ .skilll2 h1{
+font-size: 80px;
+margin-top: 50px;
+ }
+ .abouth3{
+  border-right:1px solid rgb(255, 255, 255);
+  border-bottom:1px solid rgb(255, 255, 255);
+  width: 1150px;
+  text-align: center;
+  margin-right: 10px;
+  margin-top: 50px;
+    }
+    .abouth3 h6{
+   text-align: start;
+   color: white;
+    }
+/* ===== */
+.myprogress1{
+  width: 100%;
+  background-color: rgb(132, 121, 121);
+  height: 4px;
+  margin-top: 10px;
+}
+
+.myBar1 {
+  width:70%;
+  height: 5px;
+  background-color: #e77d14;
+  margin-top: 5px;
+  display: inline-block;
+  padding-left: 20px; 
+
+}
+.myprogress2{
+  width: 100%;
+  background-color: rgb(132, 121, 121);
+  height: 4px;
+  margin-top: 5px;
+}
+.myBar2 {
+  width:80%;
+  height: 5px;
+  background-color: #e77d14;
+  margin-top: 5px;
+  display: inline-block;
+  transition-timing-function: linear;
+}
+@keyframes shraddha1{
+  50% {transform:translatex(1,1)}
+}
+.myprogress3{
+  width: 100%;
+  background-color: rgb(132, 121, 121);
+  height: 4px;
+  margin-top: 5px;
+}
+
+.myBar3{
+  width:90%;
+  height: 5px;
+  background-color: #e77d14;
+  margin-top: 5px;
+  display: inline-block; 
+}
+.myprogress4{
+  width: 100%;
+  background-color: rgb(132, 121, 121);
+  height: 4px;
+  margin-top: 5px;
+}
+
+.myBar4 {
+  width:75%;
+  height: 5px;
+  background-color: #e77d14;
+  margin-top: 5px;
+  display: inline-block;
+}
+.skilll5 h1{
+font-size:60px;
+}
+/* =============pp */
+.project-part{
+  background-color: black;
+  color: white;
+  padding: 50px;
+}
+.ppart1 h1{
+  font-size: 80px;
+  margin-top:50px;
+}
+.min2{
+  color: rgb(226, 19, 19);
+  align-items: end;
+}
+.min2 i{
+  rotate:-45deg;
+ }
+ .ppart2{
+  text-align:right;
+ }
+ .ppart3 h1{
+font-size:50px;
+ }
+ .ppart3 p{
+ border-bottom:1px solid white;
+ }
+ /* ==========off */
+ .offer{
+  background-image:url("images23/about-pic-2.jpg");
+  background-size: cover;
+  color: white;
+  padding: 60px;
+ }
+ .offer h1{
+  font-size: 60px;
+ }
+ .offer-head img{
+  margin-top: 20px;
+ }
+ .offer-head {
+  text-align:center;
+ }
+ .min3{
+  color: rgb(226, 19, 19);;
+}
+.min3 i{
+  rotate:-45deg;
+ }
+ /* ============creative */
+ .creative-a{
+  background-color: black;
+  color: white;
+  padding: 40px;
+ }
+ .creative-h h1{
+  font-size: 80px;
+  margin-top: 30px;
+  margin-bottom: 50px; 
+ }
+ .pack1 h2{
+  font-family:Londrina Outline;
+  color: rgb(160, 67, 67);
+  font-size: 140px;
+  text-align: center;
+ }
+ .pack2 h2{
+  font-family:Londrina Outline;
+  color: rgb(160, 67, 67);
+  font-size: 140px;
+  text-align: center;
+ }
+ .pack3 h2{
+  font-family:Londrina Outline;
+  color: rgb(160, 67, 67);
+  font-size: 140px;
+  text-align: center;
+ }
+ .pack1{
+  border-left: 1px solid white;
+ }
+ .pack2{
+  border-left: 1px solid white;
+ }
+ .pack3{
+  border-left: 1px solid white;
+ }
+ .pack1 h5{
+  margin-top: 100px;
+  text-align: center;
+ }
+ .pack1 p{
+  text-align: center;
+ }
+ .pack2 h5{
+  margin-top: 100px;
+  text-align: center;
+ }
+ .pack2 p{
+  text-align: center;
+ }
+ .pack3 h5{
+  margin-top: 100px;
+  text-align: center;
+ }
+ .pack3 p{
+  text-align: center;
+ }
+ /* ==========testy */
+ .tasty{
+  background-color: black;
+  color: white;
+  padding: 20px;
+ }
+ .tasty1{
+  float: left;
+  margin-top: 60px;
+  position: relative;
+  background-image: url(images23/kelly-sikkema-v9FQR4tbIq8-unsplash-1-680x680.jpg);
+padding: 100px;
+background-image:cover;
+background-repeat: no-repeat;
+ }
+ .tasty2{
+text-align:right;
+right: 0;
+ }
+ .tasty2 h1{
+font-size: 70px;
+margin-top: 120px;
+ }
+ /* == */
+ .carousel-indicators [data-bs-target]{
+  height: 15px;
+  width: 15px;
+  border-radius: 100%; 
+  text-align: center;
+ border: 2px double gold;
+ }
+.carousel-item p{
+  margin-bottom: 110px;
+}
+/* ====team */
+.staff{
+  background-color: black;
+  color:white;
+  padding:30px;
+}
+.creative-h1 h1{
+  font-size: 70px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.creative-h2 h1{
+  font-size: 180px;
+  color: rgb(175, 70, 70);
+top: 0;
+bottom: 0;
+font-family:Londrina Outline;
+}
+.counter{
+font-family:Londrina Outline;
+}
+.creative-h2{
+ margin-top: 70px;
+}
+.carousel-item p{
+  font-size: 20px;
+  padding-right: 30px;
+}
+
+/*=============client===========*/
+.clients
+{
+  background-color: rgb(29, 28, 28);
+  padding: 60px;
+  text-align: center;
+}
+.mmm{
+  text-align: end;
+  font-size: 80px;
+  color: white;
+  margin-top:10px;
+}
+.wwwww{
+  margin-top:120px;
+  margin-bottom: 30px;
+}
+/* ===========aa */
+.aggg1{
+ float:left;
+ margin-top: 40px;
+ margin-bottom: 50px;
+}
+.aggg h1{
+  margin-top: 60px;
+}
+.aggg{
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding:20px;
+}
+.abouth4{
+  border-right:1px solid rgb(255, 255, 255);
+  border-bottom:1px solid rgb(255, 255, 255);
+  width: 1150px;
+  height: 25px;
+  text-align: center;
+  margin-right: 10px;
+}
+.foot{
+  background-color: black;
+}
+.foot1{
+  margin-top:100px;
+  display:flex;
+}
+.foot2 a{
+  color: red;
+}
+.foot4 a{
+  color: red;
+}
+.nii{
+margin-left: 150px;
+}
+.grad1 {
+  background-image: linear-gradient(top to bottom, rgba(255,0,0,0), rgba(255,0,0,1));
+opacity: 9;
+}
+.team1{
+  position: relative;
+}
+.grad{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background-image: linear-gradient(to top, rgba(231, 109, 16, 0.5),rgba(0,0,5,0.4));
+  left: 0;
+}
+.likku1{
+  display: none;
+}
+.team1:hover .likku1{
+  display: block;
+}
+.creative-h3 h1{
+  font-size: 180px;
+  color: rgb(175, 70, 70);
+top: 0;
+bottom: 0;
+font-family:Londrina Outline;
+}

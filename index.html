@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="demo.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"/>
+       <!--LINK-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<!-------------------------------------slider----------------------------------->
+  <div class="slider-wrapper" id="slider_slides">
+      <nav class="navbar bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="images23/logo_light_x2.png" width="180" height="40"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blogs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="overlay">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <!-- <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div> -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="slider_img"data-aos="fade-up"data-aos-delay="100" data-aos-duration="1000">
+            <img src="images23/home3-slide2-img.png" height="400">
+                </h1>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="slider_text"data-aos="zoom-in"data-aos-delay="80" data-aos-duration="1000">
+              <h1>Offering the</h1>
+              <h2>best for our </h2>
+              <h1>World</h1>
+              </div>
+            </div>
+          </div>
+        </div>       
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-lg-5">
+              <div class="slider_img"data-aos="fade-up"data-aos-delay="100" data-aos-duration="1000">
+                <img src="images23/home3-slide2-img.png" height="400">
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="slider_text"data-aos="zoom-in"data-aos-delay="80" data-aos-duration="1000">
+                <h1>Offering the</h1>
+                <h2>best for our </h2>
+                <h1>World</h1>
+                  </div>
+              </div>
+          </div>
+        </div>
+        <div class="carousel-item mt-5 mb-5">
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="slider_text"data-aos="zoom-in"data-aos-delay="80" data-aos-duration="1000">
+                <h1>High level</h1>
+                <h2>of compatance</h2>
+                </div>
+            <a href="#" class="min">Explore more<i class="fa-solid fa-arrow-down"></i></a>
+            </div>
+            <div class="col-lg-4">
+              <div class="slider_img"data-aos="fade-up"data-aos-delay="100" data-aos-duration="1000">
+                <img src="images23/home3-slide1-img.png" height="300">
+              </div>
+            </div>
+          </div>
+        </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+           <div class="slider-dots"data-aos="fade-left"data-aos-delay="100" data-aos-duration="1000">
+        <button role="button" class="owl-dot active me-3">
+        <span>1
+        </span>
+        </button>
+        <div class="slider-dots"data-aos="fade-left"data-aos-delay="100" data-aos-duration="1000">
+          <button role="button" class="owl-dot active me-3">
+          <span>2</span>
+          </button>
+          <div class="slider-dots"data-aos="fade-left"data-aos-delay="100" data-aos-duration="1000">
+            <button role="button" class="owl-dot active">
+            <span>3</span>
+            </button>
+      </div>
+    </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <!-----------------------second part---------------------------->
+  <div class="about-service p-4">
+    <div class="container mb-5">
+      <div class="row">
+          <div class="col-lg-10">
+            <div class="abouth"data-aos="fade-right"data-aos-delay="100" data-aos-duration="1000">
+              <h6>Service</h6>
+            </div>
+          </div>
+          <div class="about123"data-aos="fade-down"data-aos-delay="100" data-aos-duration="1000">
+        <div class="about-2">
+          <h2>Most</h2>
+        </div>
+        <div class="about-1">
+        <h2>Experienced</h2></div>
+        <div class="about-2">
+        <h2> Service</h2></div>
+        </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 bg-dark">
+            <div class="row">
+              <div class="col-lg-6 mt-3">
+                <div class="text1">
+                  <h1><i class="fa-solid fa-database mb-3"></i></h1>
+                  <h4 class="bb"data-aos="fade-up"data-aos-anchor-placement="bottom-bottom"  data-aos-delay="80" data-aos-duration="1000">0.1 Devoloping</h4>
+                  <p data-aos="fade-up"data-aos-anchor-placement="bottom-bottom"  data-aos-delay="80" data-aos-duration="1000"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. nisi ex! Dolorem.</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="text2">
+                <img src="images23/christin-hume-Hcfwew744z4-unsplash-1-680x680 (1).jpg" height="300" width="200">
+              </div>
+              </div>
+            </div>
+            </div>
+            <div class="col-lg-4 bg-dark">
+              <div class="row">
+                <div class="col-lg-6 mt-3">
+                  <div class="text1">
+                    <h1><i class="fa-solid fa-chart-simple"></i></h1>
+                    <h4 data-aos="fade-up"data-aos-anchor-placement="bottom-bottom"  data-aos-delay="80" data-aos-duration="1000">0.2 Marketing Strategy</h4>
+                    <p data-aos="fade-up"data-aos-anchor-placement="bottom-bottom"  data-aos-delay="80" data-aos-duration="1000"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. nisi ex! Dolorem.</p>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="text2">
+                  <img src="images23/23.jpg" height="300" width="200">
+                </div>
+                </div>
+              </div>
+              </div>
+              <div class="col-lg-4 bg-dark">
+                <div class="row">
+                  <div class="col-lg-6 mt-3">
+                    <div class="text1">
+                      <h1><i class="fa-solid fa-face-grin-squint"></i></h1>
+                      <h4 data-aos="fade-up"data-aos-anchor-placement="bottom-bottom"  data-aos-delay="80" data-aos-duration="1000">0.3 Ui design</h4>
+                      <p data-aos="fade-up"data-aos-anchor-placement="bottom-bottom"  data-aos-delay="80" data-aos-duration="1000"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. nisi ex! Dolorem.</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="text2">
+                    <img src="images23/24.jpg" height="300" width="200">
+                  </div>
+                </div>
+              </div></div>
+                </div>
+          </div>
+          </div>
+        <!---------------------------number------------------------>
+        <div class="mymymy p-3">
+          <div class="container">
+            <div class="row">
+              <div class="abouth2"data-aos="fade-right"data-aos-delay="100" data-aos-duration="1000">
+                <h6>About agency</h6>
+              </div>
+              <div class="col-lg-6">
+                  <div class="creative-h3">
+              <h1 id="counter1">5k</h1>
+              <h1 id="counter2">500+</h1>
+              </div>
+                </div>
+              <div class="col-lg-6"data-aos="zoom-in"data-aos-delay="80" data-aos-duration="1000">
+                <div class="myhead2">
+                <h1><b>Best</b><i> Creative &<br>Modern</i><b>Agency</b></h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed ab debitis assumenda laboriosam maxime, voluptatem quasi quas recusandae impedit temporibus modi facilis atque. Nostrum ducimus repudiandae dolore nesciunt aspernatur omnis!</p>
+              <br>
+              <p>Lorem ipsum dolor sit amet debitis veniam atque facere assumenda neque quod, adipisci error voluptas earum molestias laborum deserunt?</p>
+              </div>
+              <a href="#" class="min">Explore more<i class="fa-solid fa-arrow-down"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <!------------------------------skiill------------------------------->
+        <div class="skilll">
+          <div class="container">
+            <div class="row">
+              <div class="abouth3"data-aos="fade-right"data-aos-delay="100" data-aos-duration="1000">
+                <h6>Service</h6>
+              </div>
+              <div class="col-lg-7">
+                <div class="skilll2">
+                  <h1><b>High Level of</b><br><i>our  Competence</i></h1>
+                </div>
+                <div class="skilll3">
+                  <h5>Creative Devolopment</h5>   
+                    <div class="myBar1"></div> <span>70%</span>                             
+                    <div class="myprogress1"></div>
+                  </div>
+                  <div class="skilll3 mt-3">
+                    <h5>Creative Devolopment</h5>   
+                      <div class="myBar2"></div> <span>80%</span>                             
+                      <div class="myprogress2"></div>
+                    </div>
+                    <div class="skilll3 mt-3">
+                      <h5>Creative Devolopment</h5>   
+                        <div class="myBar3"></div> <span>90%</span>                             
+                        <div class="myprogress3"></div>
+                      </div>
+                      <div class="skilll3 mt-3">
+                        <h5>Creative Devolopment</h5>   
+                          <div class="myBar4"></div> <span>75%</span>                             
+                          <div class="myprogress4"></div>
+                        </div>
+              </div>              
+              <div class="col-lg-5">
+                <div class="skillimg mt-4">
+                  <img src="images23/about-pic-1.jpg" class="img-fluid">
+                </div>
+              </div>
+            </div>
+        <!--Marquwee tage-->
+        <div class="skilll5">
+       <marquee><h1>WE CREAT NEW THING <img src="images23/home3-slide2-img.png" height="50px" width="50px"> WE CREAT NEW THING <img src="images23/home3-slide2-img.png" height="50px" width="50px"></h1></marquee>
+          </div>
+          </div>
+          </div>
+        <!---------------------portfolio--------------------------->
+        <div class="project-part">
+          <div class="container">
+            <div class="row">
+              <div class="abouth3"data-aos="fade-right"data-aos-delay="100" data-aos-duration="1000">
+                <h6>porthfolio</h6>
+              </div>
+              <div class="col-lg-8">
+              <div class="ppart1">
+              <h1><b>Awesome project<br>created</b> <i>by our<br> Team</i></h1>
+              </div>
+              </div>
+              <div class="ppart2">
+              <a href="#" class="min2">See all Project <i class="fa-solid fa-arrow-down"></i></a>
+            </div>
+            <div class="col-lg-4"></div>
+            <div class="col-lg-8">
+              <div class="pppp">
+<div class="ppart3">
+  <p>/branding</p>
+  <h1>Cor Banquet Brand Design</h1>
+</div>
+<div class="ppart3">
+  <p>/design</p>
+  <h1>Hot Pizzza Website Design</h1>
+</div>
+<div class="ppart3">
+  <p>/branding</p>
+  <h1>Light Inside Brandx Design</h1>
+  </div>
+  <div class="ppart3">
+    <p>/branding</p>
+    <h1>Vilet Rang Website Design</h1>
+    </div>
+    </div>
+          </div>
+        </div>
+        </div>
+        </div>
+ <!----------------------offer----------------------------------------------->
+ <div class="offer">
+  <div class="overlay2">
+  <div class="container">
+    <div class="row">
+      <div class="offer-head">
+        <img src="images23/home3-slide1-img.png" height="100px" width="100px">
+<h1>We Provide<br>Special Offers<br> For the Best<br>Custumer</h1>
+<a href="#" class="min3">Explore more<i class="fa-solid fa-arrow-down"></i></a>
+      </div>
+    </div>
+  </div>
+  </div>
+ </div>
+ <!--------------------------------creativ--------->
+ <div class="creative-a">
+  <div class="container">
+    <div class="row">
+      <div class="abouth3"data-aos="fade-right"data-aos-delay="100" data-aos-duration="1000">
+        <h6>Portfolio</h6>
+    </div>
+    <div class="creative-h">
+      <h1><B>Best Creative &</B><br><i>Modern Agency</i></h1>
+    </div>
+    <div class="col-lg-4">
+      <div class="pack1">
+        <h2>01</h2>
+        <h5>Research</h5>
+        <p>Lorem ipsum dolor sit amet consectetur consequatur reprehenderit Est, obcaecati quasi?</p>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="pack2">
+        <h2>02</h2>
+        <h5>Strategy</h5>
+        <p>Lorem ipsum dolor sit amet consectetur consequatur reprehenderit  Est, obcaecati quasi?</p>
+      </div>
+      </div>
+    <div class="col-lg-4">
+      <div class="pack3">
+        <h2>03</h2>
+        <h5>Design</h5>
+        <p>Lorem ipsum dolor sit amet consecteturs  consequatur reprehenderit. Est, obcaecati quasi?</p>
+      </div>
+      </div>
+    </div>
+  </div>
+ </div>
+ </div>
+ <!-----------------testistominal--------------------->
+ <div class="tasty">
+  <div class="container">
+    <div class="row">
+      <div class="abouth3"data-aos="fade-right"data-aos-delay="100" data-aos-duration="1000">
+        <h6>Testimonials</h6>
+    </div>
+    <div class="col-lg-8">
+      <div class="tasty1">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"><span>1</span></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">2</button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">3</button>
+          </div>
+          <div class="carousel-inner p-4">
+            <div class="carousel-item active">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam consequuntur a, distinctio repudiandae ab, eos obcaecati, alias sint exercitationem pariatur amet laudantium architecto quod nihil quasi doloremque necessitatibus itaque sunt.</p>
+            </div>
+              <div class="carousel-item">
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam consequuntur a, distinctio repudiandae ab, eos obcaecati, alias sint exercitationem pariatur amet laudantium architecto quod nihil quasi doloremque necessitatibus itaque sunt.</p>
+            </div>
+            <div class="carousel-item">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam consequuntur a, distinctio repudiandae ab, eos obcaecati, alias sint exercitationem pariatur amet laudantium architecto quod nihil quasi doloremque necessitatibus itaque sunt.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-4">
+  <div class="tasty2">
+<h1>The Best <br> costomer<br> <i>Says About <br> Agencium</i></h1>
+</div>
+ </div>
+ </div>
+ </div>
+ </div>
+<!--------------------------------staff-------------->
+<div class="staff">
+  <div class="container">
+    <div class="row">
+      <div class="abouth3"data-aos="fade-right"data-aos-delay="100" data-aos-duration="1000">
+        <h6>Testimonials</h6>
+    </div>
+    <div class="col-lg-7">
+    <div class="creative-h1">
+      <h1><B>Meet Our</B><br><i>Creative Stafff</i></h1>
+      <a href="#" class="min">See all Team<i class="fa-solid fa-arrow-down"></i></a>
+    </div>
+    </div>
+    <div class="col-lg-5">
+    <div class="creative-h2">
+<h1 id="counter">200+</h1>
+</div>
+    </div>
+  </div>
+  <div class="row">
+  <div class="col-lg-3">
+    <div class="team1">
+      <img src="images23/team-1.jpg" class="img-fluid">
+      <div class="grad">
+        <div class="likku1">
+          <i class="fa-brands fa-facebook p-2"></i>
+          </div>
+          <div class="likku1 me-1">
+            <i class="fa-brands fa-square-twitter p-2"></i>
+            </div>
+            <div class="likku1 me-1">
+            <i class="fa-brands fa-square-instagram p-2"></i>
+            </div>
+            <div class="likku1 me-1">
+            <i class="fa-solid fa-video p-2"></i>
+            </div>
+          </div>
+      </div>
+      <div class="team2">
+      <p>/CEO</p>
+      <H6>Adam Miller</H6>
+      </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="team1 mt-4">
+      <img src="images23/team-2.jpg" class="img-fluid">
+      <div class="grad">
+        <div class="likku1">
+          <i class="fa-brands fa-facebook p-2"></i>
+          </div>
+          <div class="likku1 me-1">
+            <i class="fa-brands fa-square-twitter p-2"></i>
+            </div>
+            <div class="likku1 me-1">
+            <i class="fa-brands fa-square-instagram p-2"></i>
+            </div>
+            <div class="likku1 me-1">
+            <i class="fa-solid fa-video p-2"></i>
+            </div>
+          </div>
+      </div>
+      <div class="team2">
+      <p>/Programer</p>
+      <H6>Don Washingaton</H6>
+    </div>
+  </div>
+  <div class="col-lg-3">
+    <div class="team1">
+      <img src="images23/team-3.jpg" class="img-fluid">
+      <div class="grad">
+        <div class="likku1">
+          <i class="fa-brands fa-facebook p-2"></i>
+          </div>
+          <div class="likku1 me-1">
+            <i class="fa-brands fa-square-twitter p-2"></i>
+            </div>
+            <div class="likku1 me-1">
+            <i class="fa-brands fa-square-instagram p-2"></i>
+            </div>
+            <div class="likku1 me-1">
+            <i class="fa-solid fa-video p-2"></i>
+            </div>
+          </div>
+      </div>
+      <div class="team2">
+        <p>/UI/UX Desiner</p>
+      <H6>Sam peterson</H6>
+      </div>
+      </div>
+  <div class="col-lg-3">
+    <div class="team1 mt-4">
+      <img src="images23/team-4.jpg" class="img-fluid">
+      <div class="grad">
+        <div class="likku1">
+          <i class="fa-brands fa-facebook p-2"></i>
+          </div>
+          <div class="likku1 me-1">
+            <i class="fa-brands fa-square-twitter p-2"></i>
+            </div>
+            <div class="likku1 me-1">
+            <i class="fa-brands fa-square-instagram p-2"></i>
+            </div>
+            <div class="likku1 me-1">
+            <i class="fa-solid fa-video p-2"></i>
+            </div>
+          </div>
+      </div>
+      <div class="team2">
+      <p>/HR specialist</p>
+      <H6>Andrew Dowson</H6>
+    </div>
+    </div>
+  </div>
+</div>
+</div>
+<!---------------------client------------------------>
+<div class="clients">
+  <div class="container">
+    <div class="row">
+      <div class="abouth3"data-aos="fade-right"data-aos-delay="100" data-aos-duration="1000">
+        <h6>Clients</h6>
+    </div>  
+    <h1 class="mmm"data-aos="zoom-in"data-aos-delay="100" data-aos-duration="1000">Clients</h1>
+    <div class="col-lg-3 mt-5">
+      <img src="images23/partner-1 (1).png">
+    </div>
+    <div class="col-lg-3 mt-5">
+      <img src="images23/partner-2.png">
+    </div>
+    <div class="col-lg-3 mt-5">
+      <img src="images23/partner-3.png">
+    </div>
+    <div class="col-lg-3 mt-5">
+      <img src="images23/partner-4.png">
+    </div>
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="wwwww">
+        <img src="images23/partner-4 (1).png">
+      </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="wwwww">
+        <img src="images23/partner-5.png">
+      </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="wwwww">
+        <img src="images23/partner-1 (1).png">
+      </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="wwwww">
+        <img src="images23/partner-3.png">
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!--------------------------Agencium----------------------->
+<div class="aggg">
+  <div class="container">
+    <div class="row">
+      <h1 class="pp"data-aos="fade-right"data-aos-delay="100" data-aos-duration="1000">#Agencium</h1>
+    <div class="col-lg-2 gx-0">
+      <div class="aggg1">
+        <img src="images23/141680312_164350602131589_6138911716661382652_nfull.jpg"class="img-fluid">
+      </div>
+    </div>
+    <div class="col-lg-2 gx-0">
+      <div class="aggg1">
+        <img src="images23/141935684_1333615643697990_3578811166555322531_nfull.jpg"class="img-fluid">
+      </div>
+    </div>
+    <div class="col-lg-2 gx-0">
+      <div class="aggg1">
+        <img src="images23/141955992_3627236420693247_8204501069868189597_nfull.jpg"class="img-fluid">
+      </div>
+    </div>
+    <div class="col-lg-2 gx-0">
+      <div class="aggg1">
+        <img src="images23/142733028_847641369360449_8008593482521558355_nfull.jpg"class="img-fluid">
+      </div>
+    </div>
+    <div class="col-lg-2 gx-0">
+      <div class="aggg1">
+        <img src="images23/143402051_451869112484517_653451332325558575_nfull.jpg"class="img-fluid">
+      </div>
+    </div>
+    <div class="col-lg-2 gx-0">
+      <div class="aggg1">
+        <img src="images23/2148073970.jpg" class="img-fluid">
+      </div>
+    </div>
+  </div>
+  </div>
+<!-- =================-------------------footer -->
+ <div class="Foot">
+  <div class="container">
+      <h1 class="nnn"><img src="images23/home3-slide1-img.png" height="40px" width="40px"> <b>Agenc<i></i>iu</i><b>m</b></h1>
+      <div class="abouth4"data-aos="fade-right"data-aos-delay="100" data-aos-duration="1000">
+        </div>
+        <div class="row">
+    <div class="col-lg-4">
+      <h4 class="foot1">United Kingdom</h4>
+      <div class="foot2">
+    <p>Agencium Ltd, 31 Ashcombe, London NW5 1QU, UK
+      +1 (368) 567 89 54 + 800 350 84 31</p>
+      <a href="#">support@agencium.com</a>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="row">
+        <h4 class="foot1"> Main menu</h4>
+      <div class="col-lg-6">
+<p>Home</p>
+<p>Pages</p>
+<p>Portfolio</p>
+</div>
+<div class="col-lg-6">
+<p>Blog</p>
+<p>Product list</p>
+<p>Contacts</p>
+</div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <H4 class="foot1">Newsletter</H4>
+     <p>Frigate mackerel snake mackerel</p>
+     <div class="foot4">
+    <p>Email
+     <a href="#" class="nii">Subscribe</a></p>
+     </div>  
+    </div>
+<p class="rrr mt-5">©Agencium 2024. All rights reserved.</p>
+  </div>
+ </div>
+ </div>
+ <script>
+  document.addEventListener("DOMContentLoaded", () => {
+ function counter(id, start, end, duration) {
+  let obj = document.getElementById(id),
+   current = start,
+   range = end - start,
+   increment = end > start ? 1 : -1,
+   step = Math.abs(Math.floor(duration / range)),
+   timer = setInterval(() => {
+    current += increment;
+    obj.textContent = current+"+";
+    if (current == end) {
+     clearInterval(timer);
+    }
+   }, step);
+ }
+ counter("counter", 100, 200, 2000);
+ counter("counter1", 0, 5, 2500);
+ counter("counter2", 200, 500, 3000);
+});
+
+  </script>
+<!------------------js link--------------------->
+  <script src="demo.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    </script>
+        <script type="text/javascript"src="js/bootstrap.bundle.min.js"></script>
+          <script type="text/javascript"src="js/demo.js"></script>
+        <!-- .==========cc -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ </body>
+</html>
