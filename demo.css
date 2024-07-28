@@ -9,7 +9,7 @@
   width: 35px;
   border: 2px double rgb(222, 56, 10);
   text-align-last: auto;
- margin-top:500px; 
+ margin-top:470px; 
 }
 .navbar{
   position: absolute;
@@ -28,7 +28,7 @@ margin-top: 30px;
   margin-top: 60px;
 }
 .slider_text h2{
-  font-size: 100px;
+  font-size: 80px;
   color: white;
   }
   .slider-wrapper{
@@ -129,7 +129,7 @@ color: white;
       text-align: start;
     }
 .myhead h1{
-font-size: 90px;
+font-size: 80px;
 }
 .myhead2 h1{
   font-size: 80px;
@@ -308,7 +308,7 @@ font-size:50px;
  .pack3 h2{
   font-family:Londrina Outline;
   color: rgb(160, 67, 67);
-  font-size: 140px;
+  font-size: 110px;
   text-align: center;
  }
  .pack1{
