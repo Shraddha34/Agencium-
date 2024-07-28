@@ -18,7 +18,7 @@ text-align: right;
 background-color:hidden;
 }
 .slider_text h1{
-font-size: 100px;
+font-size: 110px;
 font-weight: bold;
 text-align: center;
 color: white;
@@ -28,7 +28,7 @@ margin-top: 30px;
   margin-top: 60px;
 }
 .slider_text h2{
-  font-size: 70px;
+  font-size: 80px;
   color: white;
   }
   .slider-wrapper{
@@ -75,10 +75,10 @@ margin-top: 30px;
  text-align: start;
   }
 .about-1 h2{
-font-size: 60px;
+font-size: 70px;
   }
   .about-2 h2{
-    font-size: 60px;
+    font-size: 70px;
     margin-left: 0%;
       }
 .text1{
@@ -129,10 +129,10 @@ color: white;
       text-align: start;
     }
 .myhead h1{
-font-size: 70px;
+font-size: 80px;
 }
 .myhead2 h1{
-  font-size: 70px;
+  font-size: 80px;
   margin-top:30px;
   margin-left: 20px;
   color: white;
@@ -232,7 +232,7 @@ margin-top: 50px;
   display: inline-block;
 }
 .skilll5 h1{
-font-size:60px;
+font-size:70px;
 }
 /* =============pp */
 .project-part{
@@ -241,7 +241,7 @@ font-size:60px;
   padding: 50px;
 }
 .ppart1 h1{
-  font-size: 70px;
+  font-size: 80px;
   margin-top:50px;
 }
 .min2{
@@ -268,7 +268,7 @@ font-size:50px;
   padding: 60px;
  }
  .offer h1{
-  font-size: 60px;
+  font-size: 70px;
  }
  .offer-head img{
   margin-top: 20px;
@@ -296,19 +296,19 @@ font-size:50px;
  .pack1 h2{
   font-family:Londrina Outline;
   color: rgb(160, 67, 67);
-  font-size: 110px;
+  font-size: 140px;
   text-align: center;
  }
  .pack2 h2{
   font-family:Londrina Outline;
   color: rgb(160, 67, 67);
-  font-size: 110px;
+  font-size: 140px;
   text-align: center;
  }
  .pack3 h2{
   font-family:Londrina Outline;
   color: rgb(160, 67, 67);
-  font-size: 110px;
+  font-size: 140px;
   text-align: center;
  }
  .pack1{
@@ -361,7 +361,7 @@ text-align:right;
 right: 0;
  }
  .tasty2 h1{
-font-size: 60px;
+font-size: 70px;
 margin-top: 120px;
  }
  /* == */
@@ -382,7 +382,7 @@ margin-top: 120px;
   padding:30px;
 }
 .creative-h1 h1{
-  font-size: 60px;
+  font-size: 70px;
   margin-top: 30px;
   margin-bottom: 50px;
 }
@@ -413,7 +413,7 @@ font-family:Londrina Outline;
 }
 .mmm{
   text-align: end;
-  font-size: 70px;
+  font-size: 80px;
   color: white;
   margin-top:10px;
 }
