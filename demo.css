@@ -18,7 +18,7 @@ text-align: right;
 background-color:hidden;
 }
 .slider_text h1{
-font-size: 110px;
+font-size: 100px;
 font-weight: bold;
 text-align: center;
 color: white;
@@ -28,7 +28,7 @@ margin-top: 30px;
   margin-top: 60px;
 }
 .slider_text h2{
-  font-size: 80px;
+  font-size: 70px;
   color: white;
   }
   .slider-wrapper{
@@ -75,10 +75,10 @@ margin-top: 30px;
  text-align: start;
   }
 .about-1 h2{
-font-size: 70px;
+font-size: 60px;
   }
   .about-2 h2{
-    font-size: 70px;
+    font-size: 60px;
     margin-left: 0%;
       }
 .text1{
@@ -129,10 +129,10 @@ color: white;
       text-align: start;
     }
 .myhead h1{
-font-size: 80px;
+font-size: 70px;
 }
 .myhead2 h1{
-  font-size: 80px;
+  font-size: 70px;
   margin-top:30px;
   margin-left: 20px;
   color: white;
@@ -154,7 +154,7 @@ font-size: 80px;
   color: white;
  }
  .skilll2 h1{
-font-size: 80px;
+font-size: 70px;
 margin-top: 50px;
  }
  .abouth3{
@@ -241,7 +241,7 @@ font-size:60px;
   padding: 50px;
 }
 .ppart1 h1{
-  font-size: 80px;
+  font-size: 70px;
   margin-top:50px;
 }
 .min2{
@@ -289,20 +289,20 @@ font-size:50px;
   padding: 40px;
  }
  .creative-h h1{
-  font-size: 80px;
+  font-size: 70px;
   margin-top: 30px;
   margin-bottom: 50px; 
  }
  .pack1 h2{
   font-family:Londrina Outline;
   color: rgb(160, 67, 67);
-  font-size: 140px;
+  font-size: 110px;
   text-align: center;
  }
  .pack2 h2{
   font-family:Londrina Outline;
   color: rgb(160, 67, 67);
-  font-size: 140px;
+  font-size: 110px;
   text-align: center;
  }
  .pack3 h2{
@@ -361,7 +361,7 @@ text-align:right;
 right: 0;
  }
  .tasty2 h1{
-font-size: 70px;
+font-size: 60px;
 margin-top: 120px;
  }
  /* == */
@@ -382,7 +382,7 @@ margin-top: 120px;
   padding:30px;
 }
 .creative-h1 h1{
-  font-size: 70px;
+  font-size: 60px;
   margin-top: 30px;
   margin-bottom: 50px;
 }
@@ -397,7 +397,7 @@ font-family:Londrina Outline;
 font-family:Londrina Outline;
 }
 .creative-h2{
- margin-top: 70px;
+ margin-top: 60px;
 }
 .carousel-item p{
   font-size: 20px;
@@ -413,7 +413,7 @@ font-family:Londrina Outline;
 }
 .mmm{
   text-align: end;
-  font-size: 80px;
+  font-size: 70px;
   color: white;
   margin-top:10px;
 }
@@ -481,7 +481,7 @@ opacity: 9;
   display: block;
 }
 .creative-h3 h1{
-  font-size: 180px;
+  font-size: 140px;
   color: rgb(175, 70, 70);
 top: 0;
 bottom: 0;
